@@ -4,10 +4,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
+body{
+    height:100%;
+}
 
 .container{
-    height: 100vh;
-    width:100%;
+     width:100%; 
+     height:100vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -37,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1000px;
+
     margin: 10px;
     font-size: 40px;
     color: white;
@@ -50,8 +53,9 @@
     border: none;
     outline: none;
     box-shadow: 0px 0px 5px grey;
-}
+ }
 @media screen and (max-width: 1000px) {
+    
     .box {
         width: 90%; 
     }
@@ -82,4 +86,4 @@
     
     }
 
-}
+} 
